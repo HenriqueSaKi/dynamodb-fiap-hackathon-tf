@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "dynamodb-fiap-hackathon-terraform-state-bucket"
+    bucket         = "fiap-hackathon-terraform-state-bucket"
     key            = "dynamodb/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
